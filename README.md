@@ -29,19 +29,6 @@ An end-to-end data analysis project that tracks which tools employees know, how 
 - **Finance** and **IT** are the largest departments (3 employees each).
 - Proficiency: 11 Advanced, 10 Intermediate, 2 Beginner.
 
-## Repository structure
-
-```
-├── sql/
-│   ├── 01_create_tables.sql      # creates the database and tables
-│   ├── 02_insert_data.sql        # loads the sample data
-│   └── 03_analysis_queries.sql   # analysis queries
-├── powerbi/
-│   └── Employee_Skills_Dashboard.pbix
-└── images/
-    └── dashboard.png
-```
-
 ## How to run
 
 1. Open SQL Server Management Studio.
