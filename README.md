@@ -21,17 +21,6 @@ An end-to-end data analysis project that tracks which tools employees know, how 
 - **SQL Server (SSMS)**: database design, data loading, analysis queries (joins, aggregation, subqueries, CTEs, CASE)
 - **Power BI**: interactive dashboard
 
-## Database structure
-
-| Table | Description |
-|---|---|
-| `Employees` | Employee, department, job role and hire date |
-| `Skills` | Tools/technologies and their category |
-| `EmployeeSkills` | Which employee has which skill, with proficiency level and years of experience |
-| `SkillTransitions` | Records of employees moving from one tool to another, with reason, date and training status |
-
-`EmployeeSkills` and `SkillTransitions` link back to `Employees` and `Skills` through foreign keys.
-
 ## Key findings
 
 - The dataset covers **10 employees**, **7 skills** and **13 transitions**; **10 transitions (76.92%)** are completed.
