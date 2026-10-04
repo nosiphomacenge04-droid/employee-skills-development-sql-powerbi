@@ -5,7 +5,7 @@ SQL Server and Power BI project analysing employee skills, proficiency levels an
 
 An end-to-end data analysis project that tracks which tools employees know, how proficient they are, and how they are moving from one tool to another (for example Excel → Power BI) as part of training. The data is stored and analysed in **SQL Server** and presented in a **Power BI** dashboard.
 
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 ## Business questions
 
